@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proposal for Rexair</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            sky: {
+              950: '#0c1929',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .gradient-text {
+      background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .card-hover {
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card-hover:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 font-sans text-slate-800">
+  
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-sky-950 via-slate-900 to-slate-800 text-white min-h-[80vh] flex items-center">
+    <div class="max-w-6xl mx-auto px-6 py-20">
+      <div class="max-w-3xl">
+        <p class="text-sky-400 font-medium mb-4 tracking-wide uppercase text-sm">Business Proposal for Rexair</p>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+          Turn More Visitors Into Students with 
+          <span class="gradient-text">Smarter Systems</span>
+        </h1>
+        <p class="text-xl text-slate-300 mb-8 leading-relaxed">
+          A custom student portal, conversion tools, and automation suite worth <span class="text-emerald-400 font-semibold">$30,000+</span> for Rexair — 
+          in exchange for my full flight training. Zero cash investment required.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="#problems" class="bg-sky-500 hover:bg-sky-400 text-white font-semibold px-8 py-4 rounded-lg text-center transition-colors">
+            See the Opportunity
+          </a>
+          <a href="proposal.html" class="border border-slate-500 hover:border-slate-400 text-slate-300 hover:text-white font-semibold px-8 py-4 rounded-lg text-center transition-colors">
+            View Full Proposal
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Problem Section -->
+  <section class="py-20 bg-white" id="problems">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <p class="text-red-500 font-semibold mb-2 uppercase tracking-wide text-sm">The Gaps</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Great Flight School. Untapped Growth Potential.</h2>
+        <p class="text-slate-600 mt-4 max-w-2xl mx-auto">Rexair has an excellent reputation, multiple locations, and strong programs. But there are critical systems missing that are leaving revenue on the table.</p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-red-50 border border-red-100 rounded-xl p-6">
+          <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-lg mb-2 text-slate-900">No Student Progress Portal</h3>
+          <p class="text-slate-600">Students have no way to see their flight hours, milestones, or checkride readiness online. Instructors and students lack a shared digital workspace, leading to miscommunication and dropout.</p>
+        </div>
+        
+        <div class="bg-red-50 border border-red-100 rounded-xl p-6">
+          <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-lg mb-2 text-slate-900">No Discovery Flight Self-Booking</h3>
+          <p class="text-slate-600">You have great forms for program interest and campus tours, but discovery flights — the top-of-funnel conversion moment — still require a phone call. High-intent visitors want to book instantly.</p>
+        </div>
+        
+        <div class="bg-red-50 border border-red-100 rounded-xl p-6">
+          <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-lg mb-2 text-slate-900">No Student-Instructor Digital Hub</h3>
+          <p class="text-slate-600">Lesson reminders, progress updates, training notes, milestone celebrations — there's no centralized place for ongoing student-instructor communication. Admin time adds up fast.</p>
+        </div>
+        
+        <div class="bg-red-50 border border-red-100 rounded-xl p-6">
+          <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-lg mb-2 text-slate-900">No Automated Review Collection</h3>
+          <p class="text-slate-600">You have 15+ great testimonials on your site, but no systematic pipeline to collect new ones after every checkride. Consistent Google reviews drive rankings and trust.</p>
+        </div>
+        
+        <div class="bg-red-50 border border-red-100 rounded-xl p-6">
+          <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-lg mb-2 text-slate-900">Student Retention Risk</h3>
+          <p class="text-slate-600">Without progress visibility and proactive re-engagement, students stall or drop off. No automated outreach when a student hasn't flown in weeks means lost revenue.</p>
+        </div>
+        
+        <div class="bg-red-50 border border-red-100 rounded-xl p-6">
+          <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-lg mb-2 text-slate-900">No Interactive Decision Tools</h3>
+          <p class="text-slate-600">No cost calculator, no 529 eligibility checker, no program quiz. Prospects researching a $15k-$95k decision want to self-serve before picking up the phone.</p>
+        </div>
+      </div>
+      
+      <div class="mt-12 bg-slate-100 rounded-xl p-8 text-center">
+        <p class="text-2xl font-semibold text-slate-900 mb-2">
+          With programs from PPL to ATP, <span class="text-red-500">each lost student</span> = $15,000–$60,000+ in missed revenue
+        </p>
+        <p class="text-slate-600">The right systems can close those gaps without adding headcount.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Solution Section -->
+  <section class="py-20 bg-slate-50" id="solutions">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <p class="text-emerald-600 font-semibold mb-2 uppercase tracking-wide text-sm">The Solution</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Systems That Convert and Retain More Students</h2>
+        <p class="text-slate-600 mt-4 max-w-2xl mx-auto">Purpose-built tools for Rexair — designed to convert more of your existing leads, reduce admin work, and keep students on track from discovery flight to checkride.</p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-8 mb-12">
+        <!-- Student Portal - Featured -->
+        <div class="bg-white rounded-xl p-8 shadow-sm card-hover md:col-span-2 border-2 border-emerald-200">
+          <div class="grid md:grid-cols-2 gap-8">
+            <div>
+              <div class="flex items-center gap-3 mb-4">
+                <div class="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center">
+                  <svg class="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-emerald-600 text-xs font-semibold uppercase tracking-wide">Core Deliverable</p>
+                  <h3 class="font-bold text-xl text-slate-900">Student Progress Portal</h3>
+                </div>
+              </div>
+              <p class="text-slate-600 mb-4">A custom-built web application where students and instructors stay connected throughout the entire training journey.</p>
+              <ul class="space-y-2 text-slate-600">
+                <li class="flex items-start gap-2">
+                  <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  <span>Flight hours & milestone tracking dashboard</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  <span>Lesson scheduling & instructor notes</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  <span>Training materials & document access</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  <span>Automated progress reports & notifications</span>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="space-y-2 text-slate-600 mt-16">
+                <li class="flex items-start gap-2">
+                  <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  <span>Student-instructor messaging system</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  <span>Checkride readiness indicators</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  <span>Multi-program support (PPL through ATP)</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  <span>Admin dashboard for instructors & management</span>
+                </li>
+              </ul>
+              <div class="mt-6 bg-emerald-50 rounded-lg p-4">
+                <p class="text-sm text-emerald-800 font-medium">Why this matters: Students who can see their progress are significantly more likely to complete their program. This directly increases per-student revenue.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl p-8 shadow-sm card-hover">
+          <div class="w-12 h-12 bg-sky-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+          </div>
+          <h3 class="font-bold text-xl mb-3 text-slate-900">Conversion Tools & Booking</h3>
+          <ul class="space-y-2 text-slate-600">
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Interactive cost calculator & "Is flying right for me?" quiz</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Instant discovery flight self-booking (not just forms)</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Optimized program landing pages to boost form conversion</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>529 eligibility checker for parents researching funding</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="bg-white rounded-xl p-8 shadow-sm card-hover">
+          <div class="w-12 h-12 bg-violet-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-violet-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h3 class="font-bold text-xl mb-3 text-slate-900">Automation & Custom AI Tools</h3>
+          <ul class="space-y-2 text-slate-600">
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>SMS lesson reminders & stalled student re-engagement</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Automated review requests & referral tracking</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Custom AI tools built for your specific bottlenecks</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>AI-powered solutions for admin, scheduling, or comms pain points</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="bg-white rounded-xl p-8 shadow-sm card-hover">
+          <div class="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
+          </div>
+          <h3 class="font-bold text-xl mb-3 text-slate-900">SEO & Conversion Optimization</h3>
+          <ul class="space-y-2 text-slate-600">
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Local SEO for Naples & Sebring markets</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Landing pages per program (PPL, Instrument, Commercial)</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Conversion tracking & analytics dashboard</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Schema markup & Google Business optimization</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="bg-white rounded-xl p-8 shadow-sm card-hover">
+          <div class="w-12 h-12 bg-rose-100 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path>
+            </svg>
+          </div>
+          <h3 class="font-bold text-xl mb-3 text-slate-900">529 Plan & Financing Tools</h3>
+          <ul class="space-y-2 text-slate-600">
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Interactive 529 eligibility checker (enhance your existing content)</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Per-program cost estimator with financing breakdown</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Side-by-side 529 vs Purdue Global vs other financing options</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span>Parent-targeted nurture sequence for 529 inquiries</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Exchange Section -->
+  <section class="py-20 bg-gradient-to-br from-sky-950 via-slate-900 to-slate-800 text-white" id="exchange">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <p class="text-sky-400 font-semibold mb-2 uppercase tracking-wide text-sm">The Offer</p>
+        <h2 class="text-3xl md:text-4xl font-bold">Zero Cash Investment Required</h2>
+        <p class="text-slate-400 mt-4 max-w-2xl mx-auto">I'm offering my professional services in exchange for my complete flight training. You invest nothing but training hours.</p>
+      </div>
+      
+      <div class="max-w-2xl mx-auto mb-12">
+        <div class="bg-white/10 backdrop-blur border border-emerald-500/50 rounded-2xl p-8 ring-2 ring-emerald-500/20">
+          <div class="text-center">
+            <p class="text-emerald-400 font-semibold text-sm mb-2 uppercase tracking-wide">Complete Digital Partnership</p>
+            <p class="text-5xl font-bold mb-2">$30,000+</p>
+            <p class="text-slate-400 mb-6">in professional services</p>
+            <div class="w-16 h-0.5 bg-slate-600 mx-auto mb-6"></div>
+            <p class="text-2xl font-semibold text-white mb-2">In Exchange For</p>
+            <p class="text-3xl font-bold text-sky-400">Full Flight Training Program</p>
+            <p class="text-slate-400 mt-2">Complete flight training at Rexair</p>
+          </div>
+          
+          <div class="mt-8 pt-6 border-t border-white/10">
+            <p class="text-emerald-400 font-semibold text-center mb-4">What's Included:</p>
+            <div class="grid grid-cols-2 gap-3 text-sm text-slate-300">
+              <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                <span>Student Progress Portal</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                <span>Conversion Tools & Booking</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                <span>Interactive Decision Tools</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                <span>Email & SMS Automation</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                <span>SEO & Conversion Optimization</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                <span>529 Plan & Financing Tools</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                <span>Review Generation System</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                <span>6-Month Support & Optimization</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white/5 backdrop-blur border border-white/10 rounded-xl p-8 text-center">
+        <p class="text-2xl font-semibold mb-4">
+          <span class="text-emerald-400">Even 2-3 additional students/year</span> across your programs = $50,000–$150,000+ revenue
+        </p>
+        <p class="text-slate-400">Your investment: the cost of one student's training. Your return: systems that generate students for years to come.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-20 bg-white" id="about">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <p class="text-sky-600 font-semibold mb-2 uppercase tracking-wide text-sm">About Me</p>
+          <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Built Products Used by Millions</h2>
+          <p class="text-slate-600 mb-6 leading-relaxed">
+            I'm Ricardo, a full-stack developer and co-founder of WingAI. I've built digital products from concept to scale, 
+            and I bring that same level of expertise to every project.
+          </p>
+          <p class="text-slate-600 mb-8 leading-relaxed">
+            I want to train at Rexair and earn my wings. This proposal lets us both win — 
+            you get purpose-built systems that drive growth, and I get to learn from your experienced team.
+          </p>
+          <div class="grid grid-cols-2 gap-6">
+            <div>
+              <p class="text-3xl font-bold text-slate-900">2M+</p>
+              <p class="text-slate-500 text-sm">App Downloads</p>
+            </div>
+            <div>
+              <p class="text-3xl font-bold text-slate-900">1.5B+</p>
+              <p class="text-slate-500 text-sm">UGC Views</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-slate-100 rounded-2xl p-8">
+          <h3 class="font-semibold text-lg mb-4 text-slate-900">Technical Capabilities</h3>
+          <div class="space-y-3">
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 bg-sky-500 rounded-full"></div>
+              <span class="text-slate-700">Frontend: React, Next.js, TypeScript, Tailwind</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 bg-sky-500 rounded-full"></div>
+              <span class="text-slate-700">Backend: Node.js, Python, PostgreSQL</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 bg-sky-500 rounded-full"></div>
+              <span class="text-slate-700">Infrastructure: Vercel, AWS, Cloudflare</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 bg-sky-500 rounded-full"></div>
+              <span class="text-slate-700">Marketing: SEO, Email Automation, Analytics</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-2 h-2 bg-sky-500 rounded-full"></div>
+              <span class="text-slate-700">Custom Portals & Web Applications</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-slate-100">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Ready to Discuss?</h2>
+      <p class="text-slate-600 mb-8 text-lg">
+        Let's schedule a call to walk through this proposal and see how these systems can work for Rexair.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="proposal.html" class="bg-sky-600 hover:bg-sky-500 text-white font-semibold px-8 py-4 rounded-lg transition-colors">
+          View Full Proposal
+        </a>
+        <a href="mailto:ricardo_mejia1996@live.com" class="border-2 border-slate-300 hover:border-slate-400 text-slate-700 font-semibold px-8 py-4 rounded-lg transition-colors">
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-slate-400 py-8">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <p>&copy; 2026 Ricardo. Proposal prepared for Rexair.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

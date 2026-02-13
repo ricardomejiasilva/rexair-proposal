@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Proposal | Rexair</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <style>
+    .prose h2 {
+      margin-top: 3rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 2px solid #e2e8f0;
+    }
+    .prose h3 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    .prose table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+    }
+    .prose th, .prose td {
+      padding: 0.75rem 1rem;
+      text-align: left;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .prose th {
+      background: #f8fafc;
+      font-weight: 600;
+    }
+    .prose ul {
+      margin: 1rem 0;
+    }
+    .prose li {
+      margin: 0.5rem 0;
+    }
+    @media print {
+      .no-print { display: none; }
+      body { font-size: 11pt; }
+      .prose h2 { page-break-before: auto; }
+    }
+  </style>
+</head>
+<body class="bg-slate-50 font-sans text-slate-800">
+
+  <!-- Navigation -->
+  <nav class="bg-white border-b border-slate-200 sticky top-0 z-50 no-print">
+    <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-slate-600 hover:text-slate-900 flex items-center gap-2">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+        </svg>
+        Back to Overview
+      </a>
+      <button onclick="window.print()" class="text-slate-600 hover:text-slate-900 flex items-center gap-2">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path>
+        </svg>
+        Print / Save PDF
+      </button>
+    </div>
+  </nav>
+
+  <!-- Proposal Content -->
+  <main class="max-w-4xl mx-auto px-6 py-12">
+    <article class="bg-white rounded-2xl shadow-sm p-8 md:p-12 prose prose-slate max-w-none">
+      
+      <!-- Header -->
+      <div class="text-center pb-8 border-b-2 border-slate-200 mb-8">
+        <h1 class="text-4xl font-bold text-slate-900 mb-2">Business Proposal</h1>
+        <p class="text-xl text-slate-600 mb-6">Digital Services Partnership for Rexair</p>
+        <div class="flex flex-wrap justify-center gap-8 text-sm text-slate-500">
+          <div><span class="font-medium text-slate-700">Prepared for:</span> Rexair — Naples & Sebring, FL</div>
+          <div><span class="font-medium text-slate-700">Prepared by:</span> Ricardo</div>
+          <div><span class="font-medium text-slate-700">Date:</span> February 2026</div>
+        </div>
+      </div>
+
+      <!-- Executive Summary -->
+      <h2 class="text-2xl font-bold text-slate-900">Executive Summary</h2>
+      <p>
+        I'm a full-stack developer and co-founder of WingAI, a mobile app with <strong>2 million downloads</strong> and 
+        <strong>1.5 billion user-generated content views</strong>. I'm looking to pursue my flight training and would like to 
+        propose a partnership: my professional digital services in return for my complete training at Rexair.
+      </p>
+      <p>
+        Rexair already has a strong reputation, FAA Part 141 certification, Cirrus Platinum Training Center status, solid lead capture 
+        forms, a responsive sales team, and a proven track record across multiple locations. This proposal focuses on the systems 
+        you're missing — student progress tracking, conversion tools, and automation — that will convert more of your existing 
+        leads, improve student retention, and reduce admin overhead.
+      </p>
+      <div class="bg-sky-50 border border-sky-200 rounded-xl p-6 my-6">
+        <p class="text-lg font-semibold text-sky-900 m-0">
+          <strong>The Exchange:</strong> $30,000+ in professional digital services in return for my complete 
+          flight training at Rexair.
+        </p>
+      </div>
+
+      <!-- Current Assessment -->
+      <h2 class="text-2xl font-bold text-slate-900">Current Assessment</h2>
+      <p>Rexair has a solid foundation. Here's what's working and where the gaps are:</p>
+      
+      <h3 class="text-lg font-semibold text-slate-900">What's Working</h3>
+      <ul class="list-disc pl-5">
+        <li>Professional branding and established reputation</li>
+        <li>FAA Part 141 certification</li>
+        <li>Cirrus Platinum Training Center designation</li>
+        <li>Multiple programs (PPL through ATP, Cirrus transition, Professional Pilot Path at $95k)</li>
+        <li>Two strategic locations (Naples, Sebring)</li>
+        <li>Strong partnerships (Purdue Global, 529 Plan)</li>
+        <li>Lead capture forms across multiple pages (contact, Pilot Academy interest, immersion training)</li>
+        <li>Sales team with follow-up process for form submissions</li>
+        <li>Campus tour scheduling via Outlook (Sebring)</li>
+        <li>Blog content with 8+ articles on flight training topics</li>
+        <li>Testimonials page with 15+ student reviews</li>
+        <li>Detailed fleet page with aircraft specs</li>
+      </ul>
+
+      <h3 class="text-lg font-semibold text-slate-900">Where the Gaps Are</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Area</th>
+            <th>Current State</th>
+            <th>Impact</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Student Portal</strong></td>
+            <td>None</td>
+            <td>No progress visibility leads to student dropout and miscommunication between students and instructors</td>
+          </tr>
+          <tr>
+            <td><strong>Discovery Flight Booking</strong></td>
+            <td>Contact form / phone only (campus tours have Outlook booking, but discovery flights don't)</td>
+            <td>High-intent visitors who want to book a discovery flight right now have to call or wait for a callback</td>
+          </tr>
+          <tr>
+            <td><strong>Interactive Decision Tools</strong></td>
+            <td>No cost calculator, no 529 eligibility checker, no program quiz</td>
+            <td>Prospects researching a $15k-$95k decision can't self-serve to understand costs or fit</td>
+          </tr>
+          <tr>
+            <td><strong>Student-Instructor Hub</strong></td>
+            <td>No centralized digital workspace</td>
+            <td>Lesson notes, progress updates, scheduling, and communication happen across scattered channels</td>
+          </tr>
+          <tr>
+            <td><strong>Review Collection</strong></td>
+            <td>Manual/organic only (15+ testimonials on site, but no automated pipeline)</td>
+            <td>New reviews aren't systematically collected after checkrides; Google review volume could be higher</td>
+          </tr>
+          <tr>
+            <td><strong>Stalled Student Recovery</strong></td>
+            <td>No automation</td>
+            <td>Students who pause training are not proactively re-engaged with automated outreach</td>
+          </tr>
+          <tr>
+            <td><strong>529/Financing Tools</strong></td>
+            <td>Informational content exists (529 page, Purdue Global page) but no interactive tools</td>
+            <td>Parents can't self-serve to check eligibility or compare financing options — they have to call</td>
+          </tr>
+          <tr>
+            <td><strong>Conversion Analytics</strong></td>
+            <td>Likely no full-funnel tracking</td>
+            <td>No visibility into visitor → form submission → discovery flight → enrollment pipeline</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 class="text-xl font-semibold text-slate-900">The Opportunity</h3>
+      <p>
+        With programs ranging from Private Pilot ($12,000-15,000) to the Professional Pilot Path ($95,000), every student 
+        represents significant revenue. You're already capturing leads effectively — the opportunity is in converting more of them 
+        into enrolled students and retaining them through program completion. Even a small improvement in conversion or retention 
+        rates across your programs translates to significant dollars.
+      </p>
+
+      <!-- Proposed Services -->
+      <h2 class="text-2xl font-bold text-slate-900">Proposed Services</h2>
+      
+      <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-6 my-6">
+        <h3 class="text-xl font-bold text-slate-900 mt-0 mb-4">Complete Digital Partnership</h3>
+        <p class="text-lg font-semibold text-emerald-600 mb-4">Total Value: $30,000+</p>
+        
+        <p>A comprehensive suite of systems built specifically for Rexair's needs:</p>
+        
+        <p class="font-semibold mt-6 mb-2 text-lg border-b border-emerald-200 pb-2">1. Student Progress Portal (Custom Web Application)</p>
+        <p class="text-sm text-slate-500 mb-3">The core deliverable — a purpose-built platform for student and instructor communication.</p>
+        <ul class="list-disc pl-5">
+          <li><strong>Student Dashboard</strong> — Flight hours logged, milestones completed, progress toward checkride</li>
+          <li><strong>Lesson Management</strong> — View upcoming lessons, past lesson notes, instructor feedback</li>
+          <li><strong>Scheduling Integration</strong> — Book and manage lesson times within the portal</li>
+          <li><strong>Training Materials Hub</strong> — Access study guides, pre-flight checklists, program documents</li>
+          <li><strong>Messaging System</strong> — Direct student-instructor communication thread per student</li>
+          <li><strong>Checkride Readiness</strong> — Visual indicators for requirements completion (hours, maneuvers, knowledge test)</li>
+          <li><strong>Multi-Program Support</strong> — Works across PPL, Instrument, Commercial, Multi-Engine, ATP, and Cirrus programs</li>
+          <li><strong>Multi-Location Support</strong> — Handles Naples and Sebring students in one system</li>
+          <li><strong>Instructor Admin Panel</strong> — Manage all students, log hours, add notes, track fleet utilization</li>
+          <li><strong>Management Dashboard</strong> — Bird's-eye view of all active students, program completion rates, revenue metrics</li>
+        </ul>
+        
+        <p class="font-semibold mt-6 mb-2 text-lg border-b border-emerald-200 pb-2">2. Conversion Tools & Discovery Flight Booking</p>
+        <p class="text-sm text-slate-500 mb-3">You already capture leads well. These tools help convert more of them into enrolled students.</p>
+        <ul class="list-disc pl-5">
+          <li><strong>Discovery Flight Self-Booking</strong> — Instant online scheduling for Naples (and Sebring), so high-intent visitors can book without calling</li>
+          <li><strong>Interactive Cost Calculator</strong> — Per-program cost estimator that helps prospects understand the investment before they reach out</li>
+          <li><strong>"Is Flight Training Right for Me?" Quiz</strong> — Engaging tool that segments visitors by program interest and captures contact info</li>
+          <li><strong>Optimized Program Landing Pages</strong> — Conversion-focused versions of your existing PPL, Instrument, Commercial, Cirrus, and Professional Pilot Path pages</li>
+          <li><strong>Discovery Flight Follow-Up Automation</strong> — Automated sequence after discovery flights to convert attendees into enrolled students</li>
+          <li><strong>Upsell Sequences</strong> — After PPL completion, automated nurture for Instrument Rating; after Instrument, nurture for Commercial — maximizing lifetime student value</li>
+        </ul>
+        
+        <p class="font-semibold mt-6 mb-2 text-lg border-b border-emerald-200 pb-2">3. Automation & Custom AI Tools</p>
+        <ul class="list-disc pl-5">
+          <li><strong>SMS Lesson Reminders</strong> — Automated text 24 hours before scheduled flights (reduces no-shows)</li>
+          <li><strong>Weather-Aware Notifications</strong> — Alert students when conditions are good for makeup flights</li>
+          <li><strong>Milestone Celebrations</strong> — Automated emails for first solo, written test pass, checkride completion</li>
+          <li><strong>Stalled Student Re-engagement</strong> — Automated outreach when students haven't flown in 2+ weeks</li>
+          <li><strong>Review Request Automation</strong> — Triggered after checkrides, with direct Google Reviews link</li>
+          <li><strong>Student Referral Program</strong> — Tracking, automated reward notifications, referral leaderboard</li>
+          <li><strong>Custom AI Solutions</strong> — Purpose-built AI tools tailored to your specific operational bottlenecks. Whether it's automating repetitive admin tasks, building an AI assistant that answers prospective student questions 24/7, or creating intelligent scheduling that accounts for weather, aircraft availability, and instructor workload — I can build custom solutions to problems unique to Rexair</li>
+        </ul>
+        
+        <p class="font-semibold mt-6 mb-2 text-lg border-b border-emerald-200 pb-2">4. SEO & Conversion Optimization</p>
+        <ul class="list-disc pl-5">
+          <li><strong>Local SEO</strong> — Optimization for Naples and Sebring markets ("flight school Naples FL", "learn to fly Sebring", etc.)</li>
+          <li><strong>Google Business Profile</strong> — Optimization for both locations</li>
+          <li><strong>Schema Markup</strong> — Flight school structured data for rich search results</li>
+          <li><strong>Conversion Tracking</strong> — Full funnel analytics from visitor → lead → discovery flight → enrollment</li>
+          <li><strong>Google Analytics 4</strong> — Setup with custom events and goals</li>
+          <li><strong>Monthly Performance Dashboard</strong> — Lead metrics, conversion rates, traffic sources</li>
+        </ul>
+        
+        <p class="font-semibold mt-6 mb-2 text-lg border-b border-emerald-200 pb-2">5. 529 Plan & Financing Tools</p>
+        <p class="text-sm text-slate-500 mb-3">Enhance your existing 529 and Purdue Global content with interactive tools that convert browsing parents into inquiries.</p>
+        <ul class="list-disc pl-5">
+          <li><strong>Interactive 529 Eligibility Checker</strong> — Step-by-step tool so parents can self-serve to understand if they qualify</li>
+          <li><strong>Training Cost Calculator</strong> — Per-program cost estimator with financing breakdown</li>
+          <li><strong>Financing Comparison Page</strong> — Side-by-side view of 529, Purdue Global partnership, and other options</li>
+          <li><strong>Parent-Targeted Nurture Sequence</strong> — Automated email series for parents exploring 529 funding options</li>
+        </ul>
+        
+        <p class="font-semibold mt-6 mb-2 text-lg border-b border-emerald-200 pb-2">6. Six-Month Support Package</p>
+        <ul class="list-disc pl-5">
+          <li>Ongoing maintenance and bug fixes for the student portal</li>
+          <li>Monthly SEO and conversion performance reports</li>
+          <li>Continuous optimization based on data and feedback</li>
+          <li>New feature development based on instructor/student feedback</li>
+          <li>Priority support response</li>
+        </ul>
+      </div>
+
+      <!-- Additional Value-Add Ideas -->
+      <h2 class="text-2xl font-bold text-slate-900">Additional Value-Add Ideas</h2>
+      <p>Beyond the core deliverables, here are opportunities that could further differentiate Rexair:</p>
+      
+      <h3 class="text-lg font-semibold text-slate-900">Student Engagement</h3>
+      <ul class="list-disc pl-5">
+        <li><strong>Pre-Solo Countdown</strong> — Gamified progress tracker that builds excitement toward first solo</li>
+        <li><strong>Digital Logbook Companion</strong> — Supplement to the official logbook with stats and visualizations</li>
+        <li><strong>Alumni Network</strong> — Connect graduates with current students for mentorship and community</li>
+      </ul>
+      
+      <h3 class="text-lg font-semibold text-slate-900">Revenue Growth</h3>
+      <ul class="list-disc pl-5">
+        <li><strong>Gift Certificate System</strong> — Online purchasing for discovery flights (high-converting gift item)</li>
+        <li><strong>Upsell Automation</strong> — After PPL completion, automated nurture for Instrument Rating enrollment</li>
+        <li><strong>Corporate/Group Training Pages</strong> — Target businesses looking for team aviation experiences</li>
+      </ul>
+      
+      <h3 class="text-lg font-semibold text-slate-900">Operational Efficiency</h3>
+      <ul class="list-disc pl-5">
+        <li><strong>Fleet Scheduling Dashboard</strong> — Aircraft availability and utilization tracking</li>
+        <li><strong>Instructor Workload Balancing</strong> — Visibility into instructor schedules across locations</li>
+        <li><strong>Maintenance Integration</strong> — Connect aircraft maintenance status to scheduling system</li>
+      </ul>
+
+      <!-- Return on Investment -->
+      <h2 class="text-2xl font-bold text-slate-900">Return on Investment</h2>
+      
+      <h3 class="text-lg font-semibold text-slate-900">Revenue Per Student by Program</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Program</th>
+            <th>Estimated Revenue Per Student</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Private Pilot License</td>
+            <td>$12,000 – $15,000</td>
+          </tr>
+          <tr>
+            <td>Instrument Rating</td>
+            <td>$10,000 – $15,000</td>
+          </tr>
+          <tr>
+            <td>Commercial Certificate</td>
+            <td>$15,000 – $25,000</td>
+          </tr>
+          <tr>
+            <td>Multi-Engine Rating</td>
+            <td>$5,000 – $10,000</td>
+          </tr>
+          <tr>
+            <td>Cirrus Transition Training</td>
+            <td>$3,000 – $8,000</td>
+          </tr>
+          <tr>
+            <td>Professional Pilot Path (Full)</td>
+            <td>$95,000 (as listed on site)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 class="text-lg font-semibold text-slate-900">Projected Impact</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Improvement Area</th>
+            <th>Conservative Estimate</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Improved lead-to-enrollment conversion (with booking, calculators, quiz)</td>
+            <td>+2-5% improvement</td>
+          </tr>
+          <tr>
+            <td>Reduced student dropout rate (with progress portal)</td>
+            <td>10-20% fewer dropouts</td>
+          </tr>
+          <tr>
+            <td>Increased program upsell rate (PPL → Instrument → Commercial)</td>
+            <td>+10-15% more students advancing</td>
+          </tr>
+          <tr>
+            <td>Additional students enrolled or retained per year</td>
+            <td>5-15+</td>
+          </tr>
+          <tr>
+            <td>Additional annual revenue (conservatively)</td>
+            <td>$75,000 – $250,000+</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-6 my-6">
+        <p class="text-lg m-0">
+          <strong>Your investment:</strong> One student's flight training<br>
+          <strong>What you receive:</strong> $30,000+ in professional services<br>
+          <strong>Potential return:</strong> 5x–15x ROI in year one, compounding every year after
+        </p>
+      </div>
+
+      <!-- About Me -->
+      <h2 class="text-2xl font-bold text-slate-900">About Me</h2>
+      
+      <h3 class="text-lg font-semibold text-slate-900">Professional Background</h3>
+      <p><strong>Co-Founder, WingAI</strong></p>
+      <ul class="list-disc pl-5">
+        <li>2,000,000+ app downloads</li>
+        <li>1,500,000,000+ user-generated content views</li>
+        <li>Full product development from concept to scale</li>
+        <li>Experience building custom web applications, automation systems, and growth engines</li>
+      </ul>
+      
+      <h3 class="text-lg font-semibold text-slate-900">Technical Capabilities</h3>
+      <ul class="list-disc pl-5">
+        <li><strong>Frontend:</strong> React, Next.js, TypeScript, Tailwind CSS</li>
+        <li><strong>Backend:</strong> Node.js, Python, PostgreSQL, Supabase</li>
+        <li><strong>Infrastructure:</strong> Vercel, AWS, Cloudflare</li>
+        <li><strong>Marketing:</strong> SEO, email automation, analytics, conversion optimization</li>
+        <li><strong>Custom Applications:</strong> Portals, dashboards, booking systems, CRM integrations</li>
+      </ul>
+
+      <!-- Proposed Exchange -->
+      <h2 class="text-2xl font-bold text-slate-900">Proposed Exchange</h2>
+      
+      <h3 class="text-lg font-semibold text-slate-900">What I'm Asking For</h3>
+      <p>My <strong>complete flight training</strong> at Rexair, including:</p>
+      <ul class="list-disc pl-5">
+        <li>All required flight hours with instruction</li>
+        <li>Ground school / knowledge test preparation</li>
+        <li>Checkride preparation and sign-off</li>
+      </ul>
+      
+      <h3 class="text-lg font-semibold text-slate-900">What You're Getting</h3>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>The Exchange</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>My Services Value</strong></td>
+            <td>$30,000+ in professional digital services</td>
+          </tr>
+          <tr>
+            <td><strong>Your Cost</strong></td>
+            <td>Flight training (which has low marginal cost for you)</td>
+          </tr>
+          <tr>
+            <td><strong>Your Net Gain</strong></td>
+            <td>Thousands in net services value PLUS ongoing revenue from new and retained students</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <p>Plus the revenue from additional students these systems will bring — conservatively $75,000-$250,000+ per year.</p>
+
+      <!-- Why This Makes Sense -->
+      <h2 class="text-2xl font-bold text-slate-900">Why This Makes Sense for Rexair</h2>
+      <ol class="list-decimal pl-5">
+        <li><strong>Zero Cash Outlay</strong> — You're exchanging training time (which has marginal cost) for services that would cost $30,000+ to hire out</li>
+        <li><strong>Proven Expertise</strong> — I've built products used by millions; your systems will benefit from that experience</li>
+        <li><strong>Solves Real Problems</strong> — This isn't a cosmetic refresh. These are revenue-driving systems: student retention, lead conversion, and operational efficiency</li>
+        <li><strong>Aligned Incentives</strong> — As your student, I want Rexair to succeed. I'll be using the portal myself and invested in its quality</li>
+        <li><strong>Low Risk</strong> — If you're not satisfied with the work, we can adjust the arrangement</li>
+        <li><strong>Compounds Over Time</strong> — These systems continue generating value long after they're built. More students, better retention, less admin — year after year</li>
+      </ol>
+
+      <!-- Next Steps -->
+      <h2 class="text-2xl font-bold text-slate-900">Next Steps</h2>
+      <p>I'd love to discuss this proposal in person or over a call. Here's what I suggest:</p>
+      <ol class="list-decimal pl-5">
+        <li><strong>Schedule a Meeting</strong> — Let's walk through the proposal and your priorities</li>
+        <li><strong>Portal Demo</strong> — I'll show you mockups and examples of what the student portal could look like</li>
+        <li><strong>Agree on Terms</strong> — Finalize the exchange details</li>
+        <li><strong>Get Started</strong> — I'll book my first lesson while we begin development</li>
+      </ol>
+      
+      <div class="bg-slate-100 rounded-xl p-6 my-6 text-center">
+        <h3 class="text-lg font-semibold text-slate-900 mt-0">Contact</h3>
+        <p class="mb-0">
+          <strong>Ricardo</strong><br>
+          Email: <a href="mailto:ricardo_mejia1996@live.com" class="text-sky-600">ricardo_mejia1996@live.com</a><br>
+          Phone: 941-536-6093
+        </p>
+      </div>
+
+      <!-- Closing -->
+      <div class="text-center mt-12 pt-8 border-t-2 border-slate-200">
+        <p class="text-lg text-slate-600 italic">
+          I look forward to discussing this opportunity and beginning my flight training with Rexair.
+        </p>
+      </div>
+
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-slate-100 py-8 no-print">
+    <div class="max-w-4xl mx-auto px-6 text-center text-slate-500">
+      <p>&copy; 2026 Ricardo. Proposal prepared for Rexair.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
